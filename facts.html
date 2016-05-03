@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<link type="text/css" href="styles/index.css" rel="stylesheet" />
+		<link type="text/css" href="styles/articles.css" rel="stylesheet" />
+		<link type="text/css" href="styles/reset.css" rel="stylesheet" />
+		<link type="text/css" href="styles/animate.css" rel="stylesheet" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt1.css" title="alternate 1" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt2.css" title="alternate 2" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<title>
+		Facts about MFCs :: Microbial Fuel Cell
+		</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="header">
+				<a href="index.html">
+					<div id="title-hover"></div>
+				</a>
+				<a href="index.html">
+					<div id="titlebar"></div>
+				</a>			
+				<img id="anode" src="visuals/core/anode1.png" title="" />				
+				<img id="cathode" src="visuals/core/cathode1.png" title="" />
+				<div id="menu">
+					<ul id="nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>						
+						<li><a id="clicked" href="quiz.html">Quiz</a></li>						
+						<li><a href="sitemap.html">Sitemap</a></li>						
+						<li><a href="references.html#first">References</a></li>						
+						<li><a href="contact.html">Contact Us</a></li>					
+					</ul>
+				</div>
+			</div>
+			<div id="slideshow">
+					<div class="slides">
+						<ul>
+							<li id="slide-one">
+								<h2>4<sup>th</sup> International MFC Conference</h2>
+								<p>
+									<img src="visuals/core/slider/slide1.jpg"/>
+								</p>
+							</li>
+							<li id="slide-two">
+								<h2>Different types of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide2.jpg"/>
+								</p>
+							</li>   
+							<li id="slide-three">
+								<h2>Robo Insect Using MFC for Power</h2>
+								<p>
+									<img src="visuals/core/slider/slide3.jpg"/>
+								</p>
+							</li> 
+							<li id="slide-four">
+								<h2>Schematic of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide4.png"/>
+								</p>
+							</li>
+							<li id="slide-five">
+								<h2>Waste Water Plant in Australia using MFCs</h2>
+								<p>
+								<img src="visuals/core/slider/slide5.jpg"/>
+								</p>
+							</li> 
+						</ul>
+					</div>
+					<ul class="slides-nav">
+						<li class="on">
+							<a href="#slide-one"><img src="visuals/core/slider/thumb_1.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-two"><img src="visuals/core/slider/thumb_2.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-three"><img src="visuals/core/slider/thumb_3.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-four"><img src="visuals/core/slider/thumb_4.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-five"><img src="visuals/core/slider/thumb_5.jpg"/></a>
+						</li>
+					</ul>
+			</div>
+			<div id="sidebar">
+				<ul>
+					<li class="head">
+						<span>Search</span>
+						<div id="hr"></div>
+						<div>
+							<form method="get" action="http://www.google.com/search">
+								<input  id="text" type="text" name="q" size="31" maxlength="255" value="" />
+								<br/>
+								<input id="check" type="checkbox"  name="sitesearch" value="wikipedia.org" checked /> Search this Site
+								<br/>
+								<input id="button" type="submit"  value="Search" />
+							</form>
+						</div>
+					</li>
+					<li class="head">
+						<span>Themes</span>
+						<div id="hr"></div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('default'); return false;">Default Style</a>
+							</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 1'); return false;">Style#1</a>
+						</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 2'); return false;">Style#2</a>
+						</div>
+					</li>
+					<li class="head">
+						<span>Share</span>
+						<div id="hr"></div>
+						<div>
+							<ul id="share">
+								<li>
+									<a href="https://www.facebook.com/MicrobialFuelCell">
+										<img src="visuals/core/share/facebook_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="https://delicious.com/">
+										<img src="visuals/core/share/delicious_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:giney.paradise@gmail.com">
+										<img src="visuals/core/share/email_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.feedburner.com/">
+										<img src="visuals/core/share/feed_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="http://technorati.com/">
+										<img src="visuals/core/share/technorati_large.png"/>
+									</a>	
+								</li>
+								<li>
+									<a href="https://twitter.com/MFCtechnology">
+										<img src="visuals/core/share/twitter_large.png"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="head">
+						<span>Quick Links</span>
+						<div id="hr"></div>
+						<div>
+							<ul id="bubblemenu">
+								<li>
+									<span>History</span>
+									<div>
+										<p>History of MFCs</p>
+										<a href="history.html">History of MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Types</span>
+									<div>
+										<p>Types of MFCs</p>
+										<a href="#">Mediator microbial fuel cell</a><br/>
+										<a href="#">Mediator-free MFCs</a><br/>
+										<a href="#">Microbial electrolysis cell</a><br/>
+										<a href="#">Soil-based microbial fuel cell</a><br/>
+										<a href="#">Phototrophic biofilm MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Electricity</span>
+									<div>
+										<p>Electricity Generation</p>
+										<a href="#">Electrical generation process</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Applications</span>
+									<div>
+										<p>Applications of MFCs</p>
+										<a href="#">Power generation</a><br/>
+										<a href="#">Education</a><br/>
+										<a href="#">Biosensor</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Research</span>
+									<div>
+										<p>Current Research</p>
+										<a href="#">Current Research Practices</a><br/>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div><!-- sidebar -->
+			<div id="content">
+			<div id="submenu">
+					<ul class="panel">
+						<li>
+							<a onclick="Animate2id('#header');return false" href="#">Top</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_related');return false" href="#">Related Pages</a>
+						</li>
+					</ul>
+					<h3 class="flip-title">MENU</h3>
+				</div>
+				<div class="var-size">
+					<ul>	
+						<li>Font Size: </li>
+						<li><a id="size14">&nbsp;&nbsp;-&nbsp;&nbsp;</a></li>
+						<li><a id="size16">&nbsp;&nbsp;+&nbsp;&nbsp;</a></li>
+						<li><a id="size18">Reset</a></li>
+					</ul>
+				</div>
+				<span>Facts</span>
+				<div id="path">
+					<hr/>
+					<ul>
+						<li>Path: </li>
+						<li><a href="index.html">Home</a></li>
+						<li>>></li>
+						<li><a href="facts.html">Facts</a></li>
+					</ul>
+					<hr/>
+				</div><br/>
+				<ul class="upper">
+					<li>Only 10% of energy in a light bulb is used to create light. Ninety percent of a light bulb's energy creates heat. Compact fluorescent light bulbs (CFLs), on the other hand, use about 80% less electricity than conventional bulbs and last up to 12 times as long.</li>
+					<li>Refrigerators in the U.S. consume about the same energy as 25 large power plants each year.</li>
+					<li>Enough sunlight reaches the earth's surface each minute to satisfy the world's energy demands for an entire year.</li>
+					<li>There are two basic groups of energy: renewable energy (biomass, geothermal, solar, water, and wind power) and nonrenewable (fossil fuels coal, oil, natural gas, nuclear). Three quarters of the world's energy is generated by burning fossil fuels</li>
+					<li>The amount of energy Americans use doubles every 20 years</li>
+					<li>From 2008 to 2030, world energy consumption is expected to increase more than 55%.</li>
+					<li>About 5,000 years ago, the energy people consumed for their survival averaged about 12,000 kilocalories per person each day. In AD 1400, each person was consuming about twice as much energy (26,000 kilocalories). After the Industrial Revolution, the demand almost tripled to an average of 77,000 kilocalories per person in 1875. By 1975, it had tripled again to 230,000 kilocalories per person</li>
+					<li>The world's biggest blackout occurred on August 14, 2004, when a massive power outage occurred across the northeastern U.S. and throughout Ontario, Canada, affecting 50 million people</li>
+					<li>Google accounts for roughly 0.013% of the world's energy use. It uses enough energy to continuously power 200,000 homes.</li>
+					<li>According to Google, the energy it takes to conduct 100 searches on its site is equivalent to a 60-watt light bulb burning for 28 minutes. Google uses about 0.0003 kWh of energy to answer the avenge search query, which translates into about 0.2 g of carbon dioxide released.</li>
+					<li>The United States produces half of its electricity from coal. China uses coal to generate more than three-fourths of its electricity. Australia, Poland, and South Africa produce an even greater percentage. Overall, coal makes up 2/5 of the world's electricity generation.</li>
+					<li>Ten countries produce 2/3 of the world's oil and hold the same percentage of known reserves. Saudi Arabia tops both lists.</li>
+					<li>Ten countries produce 2/3 of the world's natural gas and hold about the same percentage of known reserves.</li>
+					<li>The United States produces more nuclear-generated electricity than any other country, nearly 1/3 of the world's total. The second largest producer is France, which generates more than 3/4 of its electricity in nuclear reactors.</li>
+				</ul>
+					<hr/>
+					<div id="_related" class="related">
+						<span>Related Pages</span>
+						<ul>	
+							<li><a href="video.html">Video about MFCs</a></li>
+							<li><a href="articles.html">Articles</a></li>
+						</ul>
+					</div>
+			</div>
+			<div id="footer">
+				<div id="left">
+					<img src="visuals/core/valid.jpg" alt="" />
+					<img src="visuals/core/jquery.png" alt="" />
+				</div>
+				<div id="right">
+					<img src="visuals/core/css3.png" alt="" />
+					<img src="visuals/core/html5.png" alt="" />
+				</div>
+				<p>Copyright &copy; <br/> Sunbeam Schools, Lahartara <br/>Designed by Arfat Salman and Rishabh Jain</p>
+			</div><!--footer -->
+		</div><!--main-container-->
+	</body>
+</html>

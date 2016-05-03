@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<link type="text/css" href="styles/index.css" rel="stylesheet" />
+		<link type="text/css" href="styles/reset.css" rel="stylesheet" />
+		<link type="text/css" href="styles/animate.css" rel="stylesheet" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt1.css" title="alternate 1" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt2.css" title="alternate 2" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<title>
+		Applications of MFCs :: Microbial Fuel Cell
+		</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="header">
+				<a href="index.html">
+					<div id="title-hover"></div>
+				</a>
+				<a href="index.html">
+					<div id="titlebar"></div>
+				</a>				
+				<img id="anode" src="visuals/core/anode1.png" title="" alt="" />				
+				<img id="cathode" src="visuals/core/cathode1.png" title="" alt="" />
+				<div id="menu">
+					<ul id="nav">
+						<li><a id="clicked" href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>						
+						<li><a href="quiz.html">Quiz</a></li>						
+						<li><a href="sitemap.html">Sitemap</a></li>						
+						<li><a href="references.html#first">References</a></li>						
+						<li><a href="contact.html">Contact Us</a></li>					
+					</ul>
+				</div>
+			</div>
+			<div id="slideshow">
+					<div class="slides">
+						<ul>
+							<li id="slide-one">
+								<h2>4<sup>th</sup> International MFC Conference</h2>
+								<p>
+									<img src="visuals/core/slider/slide1.jpg" alt="" />
+								</p>
+							</li>
+							<li id="slide-two">
+								<h2>Different types of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide2.jpg" alt="" />
+								</p>
+							</li>   
+							<li id="slide-three">
+								<h2>Robo Insect Using MFC for Power</h2>
+								<p>
+									<img src="visuals/core/slider/slide3.jpg" alt="" />
+								</p>
+							</li> 
+							<li id="slide-four">
+								<h2>Schematic of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide4.png" alt="" />
+								</p>
+							</li>
+							<li id="slide-five">
+								<h2>Waste Water Plant in Australia using MFCs</h2>
+								<p>
+								<img src="visuals/core/slider/slide5.jpg" alt="" />
+								</p>
+							</li> 
+						</ul>
+					</div>
+					<ul class="slides-nav">
+						<li class="on">
+							<a href="#slide-one"><img src="visuals/core/slider/thumb_1.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-two"><img src="visuals/core/slider/thumb_2.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-three"><img src="visuals/core/slider/thumb_3.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-four"><img src="visuals/core/slider/thumb_4.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-five"><img src="visuals/core/slider/thumb_5.jpg" alt=""/></a>
+						</li>
+					</ul>
+			</div>			
+			<div id="sidebar">
+				<ul>
+					<li class="head">
+						<span>Search</span>
+						<div class="hr"></div>
+						<div>
+							<form method="get" action="http://www.google.com/search">
+								<input  id="text" type="text" name="q" size="31" maxlength="255" value="" />
+								<br/>
+								<input id="check" type="checkbox"  name="sitesearch" value="wikipedia.org" checked /> Search this Site
+								<br/>
+								<input id="button" type="submit"  value="Search" />
+							</form>
+						</div>
+					</li>
+					<li class="head">
+						<span>Themes</span>
+						<div class="hr"></div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('default'); return false;">Default Style</a>
+							</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 1'); return false;">Style#1</a>
+						</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 2'); return false;">Style#2</a>
+						</div>
+					</li>
+					<li class="head">
+						<span>Share</span>	
+						<div class="hr"></div>
+						<div>
+							<ul id="share">
+								<li>
+									<a href="https://www.facebook.com/MicrobialFuelCell">
+										<img src="visuals/core/share/facebook_large.png" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="https://delicious.com/">
+										<img src="visuals/core/share/delicious_large.png" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:giney.paradise@gmail.com">
+										<img src="visuals/core/share/email_large.png" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.feedburner.com/">
+										<img src="visuals/core/share/feed_large.png" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="http://technorati.com/">
+										<img src="visuals/core/share/technorati_large.png" alt="" />
+									</a>	
+								</li>
+								<li>
+									<a href="https://twitter.com/MFCtechnology">
+										<img src="visuals/core/share/twitter_large.png" alt=""/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="head">
+						<span>Quick Links</span>
+						<div class="hr"></div>
+						<div>
+							<ul id="bubblemenu">
+								<li>
+									<span>Introduction</span>
+									<div>
+										<p>Introduction</p>
+										<a href="introduction.html">Introduction</a><br/>
+										<a href="history.html">History of MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Types of MFCs</span>
+									<div>
+										<p>Types of MFCs</p>
+										<a href="types.html#_med">Mediator MFC</a><br/>
+										<a href="types.html#_med-free">Mediator-free MFCs</a><br/>
+										<a href="types.html#_mec">Microbial electrolysis cell</a><br/>
+										<a href="types.html#_soil">Soil-based MFCs</a><br/>
+										<a href="types.html#_photo">Phototrophic Biofilm MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Design</span>
+									<div>
+										<p>Design of MFCs</p>
+										<a href="design.html#_two">Two-compartment MFC</a><br/>
+										<a href="design.html#_single">Single-compartment MFC</a><br/>
+										<a href="design.html#_upflow">Up-flow mode MFC</a><br/>
+										<a href="design.html#_stacked">Stacked MFC</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Performance</span>
+									<div>
+										<p>Performance</p>
+										<a href="performance.html">Ideal performance</a><br/>
+										<a href="performance.html">Actual MFC performance</a><br/>
+										<a href="performance.html">Effects of operating conditions</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Applications</span>
+									<div>
+										<p>Applications of MFCs</p>
+										<a href="applications.html#_elec">Power generation</a><br/>
+										<a href="applications.html#_h2">Biohydrogen</a><br/>
+										<a href="applications.html#_water">Waste Water Treatment</a><br/>
+										<a href="applications.html#_sensor">Biosensor</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Miscellaneous</span>
+									<div>
+										<p>Extra Topics</p>
+										<a href="glossary.html">Glossary</a><br/>
+										<a href="microbes.html">Microbes</a><br/>
+										<a href="future.html">Future of MFC</a><br/>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div><!-- sidebar -->
+			<div id="content">
+				<div id="submenu">
+					<ul class="panel">
+						<li>
+							<a onclick="Animate2id('#header');return false" href="#">Top</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_elec');return false" href="#">Electricity generation</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_h2');return false" href="#">Biohydrogen</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_water');return false" href="#">Waste Water Treatment</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_sensor');return false" href="#">Biosensor</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_related');return false" href="#">Related Pages</a>
+						</li>
+					</ul>
+					<h3 class="flip-title">MENU</h3>
+				</div>
+				<div class="var-size">
+					<ul>	
+						<li>Font Size: </li>
+						<li><a id="size14">&nbsp;&nbsp;-&nbsp;&nbsp;</a></li>
+						<li><a id="size16">&nbsp;&nbsp;+&nbsp;&nbsp;</a></li>
+						<li><a id="size18">Reset</a></li>
+					</ul>
+				</div>
+				<span>Applications</span>
+				<div id="path">
+					<hr/>
+					<ul>
+						<li>Path: </li>
+						<li><a href="index.html">Home</a></li>
+						<li>>></li>
+						<li><a href="applications.html">Applications</a></li>
+					</ul>
+					<hr/>
+				</div><br/>
+				<h2 id="_elec">&nbsp;&nbsp; Electricity generation</h2>
+				<p class="upper">MFCs are capable of converting the chemical energy
+				stored in the chemical compounds in a biomass to
+				electrical energywith the aid of microorganisms. Because
+				chemical energy from the oxidization of fuel molecules is
+				converted directly into electricity instead of heat, the
+				Carnot cycle with a limited thermal efficiency is avoided
+				and theoretically amuch higher conversion efficiency can
+				be achieved (>70%) just like conventional chemical fuel
+				cells. Chaudhury and Lovley (2003) reported that <i>R.
+				ferrireducens</i> could generate electricity with an electron
+				yield as high as 80%. 
+				<span class="images">
+						<img src="visuals/content/app.electricity.jpg" title="Generation of Electricity" />
+						<span class="desc">Generation of Electricity</span>
+				</span>Higher electron recovery as electricity of up to 89% was also reported.
+				An extremely high Coulombic efficiency of 97% was
+				reported during the oxidation of formatewith the catalysis
+				of Pt black. However, MFC
+				power generation is still very low, that is the rate of electron
+				abstraction is very low. One feasible way to solve this
+				problem is to store the electricity in rechargeable devices
+				and then distribute the electricity to end-users. Capacitors were used in their biologically
+				inspired robots named EcoBot I to accumulate the energy
+				generated by the MFCs and worked in a pulsed manner.
+				MFCs are especially suitable for powering small
+				telemetry systems and wireless sensors that have only low power requirements to transmit signals such as temperature to receivers in remote locations</p>
+				<p class="upper">MFCs themselves
+				can serve as distributed power systems for local uses,
+				especially in underdeveloped regions of the world. MFCs
+				are viewed by some researchers as a perfect energy supply
+				candidate for Gastrobots by self-feeding the biomass
+				collected by themselves. 
+				<span class="images">
+						<img src="visuals/content/app.electricity2.jpg" title="Researcher Holding a MFC Cell" />
+						<span class="desc">Researcher Holding a MFC Cell</span>
+				</span>Realistic
+				energetically autonomous robots would probably be
+				equipped with MFCs that utilize different fuels like
+				sugar, fruit, dead insects, grass and weed. The robot
+				EcoBot-II solely powers itself by MFCs to perform some
+				behavior including motion, sensing, computing and
+				communication. Locally supplied
+				biomass can be used to provide renewable power for local
+				consumption. Applications of MFCs in a spaceship are
+				also possible since they can supply electricity while
+				degrading wastes generated onboard. Some scientists
+				envision that in the future a miniature MFC can be im-planted in a human body to power an implantablemedical
+				device with the nutrients supplied by the human body. The MFC technology is particularly favored
+				for sustainable long-term power applications. However,
+				only after potential health and safety issues brought by the
+				microorganisms in the MFC are thoroughly solved, could
+				it be applied for this purpose.</p>
+				<h2 id="_h2">&nbsp;&nbsp; Biohydrogen</h2>
+				<p class="upper">MFCs can be readily modified to produce hydrogen
+				instead of electricity. Under normal operating conditions, protons released by the anodic reaction migrate to
+				the cathode to combine with oxygen to form water.
+				Hydrogen generation from the protons and the electrons
+				produced by the metabolism of microbes in an MFC is
+				thermodynamically unfavorable. Liu et al. (2005c)
+				applied an external potential to increase the cathode
+				potential in a MFC circuit and thus overcame the thermodynamic barrier. In this mode, protons and electrons
+				<span class="images">
+						<img src="visuals/content/app.hydrogen.jpg" title="Schematic of MFC Producing Hydrogen" />
+						<span class="desc">Schematic of MFC Producing Hydrogen</span>
+				</span>
+				produced by the anodic reaction are combined at the
+				cathode to form hydrogen. The required external potential for an MFC is theoretically 110 mV, much lower
+				than the 1210 mV required for direct electrolysis of
+				water at neutral pH because some energy comes from
+				the biomass oxidation process in the anodic chamber.
+				MFCs can potentially produce about 8-9 mol H2/mol
+				glucose compared to the typical 4 mol H2/mol glucose
+				achieved in conventional fermentation. In biohydrogen production using MFCs, oxy-gen is no longer needed in the cathodic chamber. Thus,
+				MFC efficiencies improve because oxygen leak to the anodic chamber is no longer an issue. Another advan-tage is that hydrogen can be accumulated and stored for
+				later usage to overcome the inherent low power feature of the MFCs. Therefore, MFCs provide a renewable hydrogen source that can contribute to the overall hy-drogen demand in a hydrogen economy.</p>
+				<h2 id="_water">&nbsp;&nbsp; Wastewater treatment</h2>
+				<p class="upper">The MFCs were considered to be used for treating
+				waste water early in 1991. Municipal wastewater contains a multitude of
+				organic compounds that can fuel MFCs. The amount of
+				power generated by MFCs in the wastewater treatment
+				process can potentially halve the electricity needed in a
+				conventional treatment process that consumes a lot of
+				electric power aerating activated sludges.
+				<span class="images">
+						<img src="visuals/content/app.waste.jpg" title="Waste Water Plant Using MFC" />
+						<span class="desc">Waste Water Plant Using MFC</span>
+				</span>				MFCs yield
+				50-90% less solids to be disposed of.
+				Furthermore, organic molecules such as acetate, propi-onate, butyrate can be thoroughly broken down to CO<sub>2</sub>
+				and H<sub>2</sub>O. A hybrid incorporating both electrophiles and
+				anodophiles are especially suitable for wastewater
+				treatment because more organics can be biodegraded
+				by a variety of organics. MFCs using certain microbes
+				have a special ability to remove sulfides as required in
+				wastewater treatment. MFCs can
+				enhance the growth of bioelectrochemically active
+				microbes during wastewater treatment thus they have
+				good operational stabilities. Continuous flow and
+				single-compartment MFCs and membrane-less MFCs
+				are favored for wastewater treatment due to concerns in
+				scale-up. Sanitary wastes, food processing wastewater,
+				swine wastewater and corn stover are all great biomass
+				sources for MFCs because they are rich in organic
+				matters. Up to
+				80%of theCODcan be removed in some cases and a Coulombic efficiency as
+				high as 80% has been reported.</p>
+				<h2 id="_sensor">&nbsp;&nbsp; Biosensor</h2>
+				<p class="upper">Apart from the aforementioned applications, another
+				potential application of the MFC technology is to use it
+				as a sensor for pollutant analysis andin situ process
+				monitoring and control. The
+				proportional correlation between the Coulombic yield of
+				MFCs and the strength of the wastewater make MFCs
+				possible biological oxygen demand (BOD) sensors. An accurate method to measure the BOD value of a liquid stream is to calculate its
+				Coulombic yield. 
+				<span class="images">
+						<img src="visuals/content/app.sensor.jpg" title="A Diagram of MFC Sensor" />
+						<span class="desc">A Diagram of MFC Sensor</span>
+				</span>A number of works  showed a good linear relation-ship between the Coulombic yield and the strength of
+				the wastewater in a quite wide BOD concentration
+				range. However, a high BOD concentration requires a
+				long response time because the Coulombic yield can be
+				calculated only after the BOD has been depleted unless a
+				dilution mechanism is in place. Efforts have been made
+				to improve the dynamic responses in MFCs used as
+				sensors. A low BOD sensor can also
+				show the BOD value based on the maximum current
+				since the current values increase with the BOD value
+				linearly in an oligotroph-type MFC. During this stage,
+				the anodic reaction is limited by substrate concentration.
+				This monitoring mode can be applied to real-time BOD
+				determinations for either surface water, secondary
+				effluents or diluted high BOD wastewater samples. MFC-type of BOD sensors are
+				advantageous over other types of BOD sensor because
+				they have excellent operational stability and good repro-ducibility and accuracy. An MFC-type BOD sensor
+				constructed with the microbes enriched with MFC can
+				be kept operational for over 5 years without extra
+				maintenance, far longer in service life
+				span than other types of BOD sensors reported in the
+				literature.</p>
+				<div class="outer">
+					<a href="#">[Go]</a>
+					<div>
+						<a href="future.html">Next Page: <b>Future of MFCs</b></a>
+						<a href="electricity.html">Previous Page: <b>Electricity Generation</b></a>
+					</div>
+				</div>
+				<hr/>
+				<div id="_related" class="related">
+					<span>Related Pages</span>
+					<ul>	
+						<li><a href="performance.html">Performance</a></li>
+						<li><a href="types.html">Types of MFCs</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="left">
+					<img src="visuals/core/valid.jpg" alt="" />
+					<img src="visuals/core/jquery.png" alt="" />
+				</div>
+				<div id="right">
+					<img src="visuals/core/css3.png" alt="" />
+					<img src="visuals/core/html5.png" alt="" />
+				</div>
+				<p>Copyright &copy; <br/> Sunbeam Schools, Lahartara <br/>Designed by Arfat Salman and Rishabh Jain</p>
+			</div><!--footer -->
+		</div><!--main-container-->
+	</body>
+</html>

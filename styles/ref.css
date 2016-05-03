@@ -1,0 +1,78 @@
+
+dt, #website a {
+    font-family: Verdana;
+    font-size: 1.2em;
+}
+dd > img {
+    float: left;
+    margin: -25px 15px 0px 0px;
+    padding: 0 15px;
+    border: 1px solid;
+}
+dd {
+    font-family: Verdana;
+    font-size: 0.9em;
+    padding: 30px 0 70px !important;
+}
+.accordion h2 + div {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in 0s;
+}
+.accordion {
+    margin: 0 0 10px 5px;
+    width: 675px;
+}
+.accordion *:target h2 + div {
+    height: 520px;
+}
+#first h2 {
+    background: none repeat scroll 0 0 hsl(0, 100%, 50%);
+    padding: 5px;
+    text-shadow: 1px 2px black;
+    transition: all 0.5s ease 0s;
+}
+#first h2:hover {
+    background: none repeat scroll 0 0 hsl(360, 100%, 70%);
+}
+#first a:hover {
+    text-decoration: none;
+}
+#two h2 {
+    background: none repeat scroll 0 0 hsl(36, 88%, 56%);
+    padding: 5px;
+    text-shadow: 1px 2px black;
+    transition: all 0.5s ease 0s;
+}
+#two h2:hover {
+    background: none repeat scroll 0 0 hsl(36, 89%, 76%);
+}
+#three h2 {
+    background: none repeat scroll 0 0 hsl(74, 57%, 53%);
+    padding: 5px;
+    text-shadow: 1px 2px black;
+    transition: all 0.5s ease 0s;
+}
+#three h2:hover {
+    background: none repeat scroll 0 0 hsl(50, 33%, 86%);
+}
+.section a {
+    color: white;
+    font-size: 25pt;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.section dl a {
+    color: blue;
+    font-size: 13pt;
+}
+.section dl a:hover {
+    text-decoration: underline;
+}
+.section ul a {
+    color: blue;
+    font-size: 13pt;
+}
+.section ul {
+    list-style: disc inside none;
+}

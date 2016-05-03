@@ -1,0 +1,23 @@
+
+#perf_ {
+    font-family: Verdana;
+    font-size: 22px;
+    list-style: disc outside none;
+    padding: 0 0 30px 70px;
+}
+#perf_ ul {
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    list-style: circle outside none;
+    padding: 0 30px;
+}
+#perf_ li {
+    padding: 6px 0;
+}
+#perf_ li a:hover {
+    padding: 0 10px;
+}
+#perf_ li a {
+	color: blue;
+    -moz-transition: all 0.5s ease 0s;
+}

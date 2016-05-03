@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link type="text/css" href="styles/index.css" rel="stylesheet" />
+		<link type="text/css" href="styles/reset.css" rel="stylesheet" />
+		<link type="text/css" href="styles/animate.css" rel="stylesheet" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt1.css" title="alternate 1" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt2.css" title="alternate 2" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<title>
+		Structural Designs of MFCs :: Microbial Fuel Cell
+		</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="header">
+				<a href="index.html">
+					<div id="title-hover"></div>
+				</a>
+				<a href="index.html">
+					<div id="titlebar"></div>
+				</a>				
+				<img id="anode" src="visuals/core/anode1.png" title="" alt="" />				
+				<img id="cathode" src="visuals/core/cathode1.png" title="" alt="" />
+				<div id="menu">
+					<ul id="nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>						
+						<li><a href="quiz.html">Quiz</a></li>						
+						<li><a href="sitemap.html">Sitemap</a></li>						
+						<li><a href="references.html#first">References</a></li>						
+						<li><a href="contact.html">Contact Us</a></li>					
+					</ul>
+				</div>
+			</div>
+			<div id="slideshow">
+					<div class="slides">
+						<ul>
+							<li id="slide-one">
+								<h2>4<sup>th</sup> International MFC Conference</h2>
+								<p>
+									<img src="visuals/core/slider/slide1.jpg" alt="" />
+								</p>
+							</li>
+							<li id="slide-two">
+								<h2>Different types of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide2.jpg" alt="" />
+								</p>
+							</li>   
+							<li id="slide-three">
+								<h2>Robo Insect Using MFC for Power</h2>
+								<p>
+									<img src="visuals/core/slider/slide3.jpg" alt="" />
+								</p>
+							</li> 
+							<li id="slide-four">
+								<h2>Schematic of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide4.png" alt="" />
+								</p>
+							</li>
+							<li id="slide-five">
+								<h2>Waste Water Plant in Australia using MFCs</h2>
+								<p>
+								<img src="visuals/core/slider/slide5.jpg" alt="" />
+								</p>
+							</li> 
+						</ul>
+					</div>
+					<ul class="slides-nav">
+						<li class="on">
+							<a href="#slide-one"><img src="visuals/core/slider/thumb_1.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-two"><img src="visuals/core/slider/thumb_2.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-three"><img src="visuals/core/slider/thumb_3.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-four"><img src="visuals/core/slider/thumb_4.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-five"><img src="visuals/core/slider/thumb_5.jpg" alt=""/></a>
+						</li>
+					</ul>
+			</div>			
+			<div id="sidebar">
+				<ul>
+					<li class="head">
+						<span>Search</span>
+						<div class="hr"></div>
+						<div>
+							<form method="get" action="http://www.google.com/search">
+								<input  id="text" type="text" name="q" size="31" maxlength="255" value="" />
+								<br/>
+								<input id="check" type="checkbox"  name="sitesearch" value="wikipedia.org" checked /> Search this Site
+								<br/>
+								<input id="button" type="submit"  value="Search" />
+							</form>
+						</div>
+					</li>
+					<li class="head">
+						<span>Themes</span>
+						<div class="hr"></div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('default'); return false;">Default Style</a>
+							</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 1'); return false;">Style#1</a>
+						</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 2'); return false;">Style#2</a>
+						</div>
+					</li>
+					<li class="head">
+						<span>Share</span>	
+						<div class="hr"></div>
+						<div>
+							<ul id="share">
+								<li>
+									<a href="https://www.facebook.com/MicrobialFuelCell">
+										<img src="visuals/core/share/facebook_large.png" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="https://delicious.com/">
+										<img src="visuals/core/share/delicious_large.png" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:giney.paradise@gmail.com">
+										<img src="visuals/core/share/email_large.png" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.feedburner.com/">
+										<img src="visuals/core/share/feed_large.png" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="http://technorati.com/">
+										<img src="visuals/core/share/technorati_large.png" alt="" />
+									</a>	
+								</li>
+								<li>
+									<a href="https://twitter.com/MFCtechnology">
+										<img src="visuals/core/share/twitter_large.png" alt=""/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="head">
+						<span>Quick Links</span>
+						<div class="hr"></div>
+						<div>
+							<ul id="bubblemenu">
+								<li>
+									<span>Introduction</span>
+									<div>
+										<p>Introduction</p>
+										<a href="introduction.html">Introduction</a><br/>
+										<a href="history.html">History of MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Types of MFCs</span>
+									<div>
+										<p>Types of MFCs</p>
+										<a href="types.html#_med">Mediator MFC</a><br/>
+										<a href="types.html#_med-free">Mediator-free MFCs</a><br/>
+										<a href="types.html#_mec">Microbial electrolysis cell</a><br/>
+										<a href="types.html#_soil">Soil-based MFCs</a><br/>
+										<a href="types.html#_photo">Phototrophic Biofilm MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Design</span>
+									<div>
+										<p>Design of MFCs</p>
+										<a href="design.html#_two">Two-compartment MFC</a><br/>
+										<a href="design.html#_single">Single-compartment MFC</a><br/>
+										<a href="design.html#_upflow">Up-flow mode MFC</a><br/>
+										<a href="design.html#_stacked">Stacked MFC</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Performance</span>
+									<div>
+										<p>Performance</p>
+										<a href="performance.html">Ideal performance</a><br/>
+										<a href="performance.html">Actual MFC performance</a><br/>
+										<a href="performance.html">Effects of operating conditions</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Applications</span>
+									<div>
+										<p>Applications of MFCs</p>
+										<a href="applications.html#_elec">Power generation</a><br/>
+										<a href="applications.html#_h2">Biohydrogen</a><br/>
+										<a href="applications.html#_water">Waste Water Treatment</a><br/>
+										<a href="applications.html#_sensor">Biosensor</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Miscellaneous</span>
+									<div>
+										<p>Extra Topics</p>
+										<a href="glossary.html">Glossary</a><br/>
+										<a href="microbes.html">Microbes</a><br/>
+										<a href="future.html">Future of MFC</a><br/>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div><!-- sidebar -->
+			<div id="content">
+				<div id="submenu">
+					<ul class="panel">
+						<li>
+							<a onclick="Animate2id('#header');return false" href="#">Top</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_comp');return false" href="#">MFC components</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_two');return false" href="#">Two-compartment MFC systems</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_single');return false" href="#">Single-compartment MFC systems</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_upflow');return false" href="#">Up-flow mode MFC systems</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_stacked');return false" href="#">Stacked microbial fuel cell</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_related');return false" href="#">Realted Pages</a>
+						</li>
+					</ul>
+					<h3 class="flip-title">MENU</h3>
+				</div>
+				<div class="var-size">
+					<ul>	
+						<li>Font Size: </li>
+						<li><a id="size14">&nbsp;&nbsp;-&nbsp;&nbsp;</a></li>
+						<li><a id="size16">&nbsp;&nbsp;+&nbsp;&nbsp;</a></li>
+						<li><a id="size18">Reset</a></li>
+					</ul>
+				</div>
+				<span>Designs of MFCs</span>
+				<div id="path">
+					<hr/>
+					<ul>
+						<li>Path: </li>
+						<li><a href="index.html">Home</a></li>
+						<li>>></li>
+						<li><a href="design.html">Design</a></li>
+					</ul>
+					<hr/>
+				</div><br/>
+				<h2 id="_comp">&nbsp;&nbsp;MFC components</h2>
+				<p class="upper">
+				<span class="images">
+						<img src="visuals/content/design.two.jpg" title="Fig. 1. Schematic diagramof a typical two-chamber microbial fuel cell." />
+						<span class="desc">Fig. 1. Schematic diagramof a typical two-chamber MFC.</span>
+				</span>A typical MFC consists of an anodic chamber and a cathodic chamber separated by a PEM as shown in Fig. 1. 
+				A one-compartment MFC eliminates the need for the cathodic chamber by exposing the cathode directly to the air. <b><a style="color:blue" href="table2.html"> Table </a></b>shows a summary of MFC components and the materials used to construct them.</p><br/><br/><br/><br/><br/>
+				<h2 id="_two">&nbsp;&nbsp;Two-compartment MFC systems</h2>
+				<p class="upper">
+				<span class="images">
+						<img src="visuals/content/fig4a.jpg" title="Fig A. two-compartment MFC in cylindrical shape." />
+						<span class="desc">Fig A. two-compartment MFC in cylindrical shape</span>
+				</span>Two-compartment MFCs are typically run in batch mode often with a chemically defined medium such as glucose or acetate solution to generate energy. They are currently used only in laboratories. <span class="images">
+						<img src="visuals/content/fig4b.jpg" title="Fig B. two-compartment MFC in Rectagular shape." />
+						<span class="desc">Fig B. two-compartment<br/> MFC in Rectagular shape</span>
+				</span>A typical two-compartment MFC has an anodic chamber and a cathodic chamber connected by a PEM, or sometimes a salt bridge, to allow protons to move across to the cathode while blocking the diffusion of oxygen into the anode. The compartments can take various practical shapes. The schematic diagrams of five two compartment MFCs are shown in Figure A,B,C,D,E.<span class="images">
+						<img src="visuals/content/fig4c.jpg" title="Fig C. two-compartment MFC in  miniature shape." />
+						<span class="desc">Fig C. two-compartment <br/>MFC in  miniature shape</span>
+				</span> The mini-MFC shown in Fig. C having a diameter of about 2 cm, but with a high volume power density was reported by Ringeisen et al. (2006). <span class="images">
+						<img src="visuals/content/fig4d.jpg" title="Fig D. two-compartment MFC in upflow configuration with cylindrical shape." />
+						<span class="desc">Fig D. two-compartment MFC in <br/>upflow configuration with <br/>cylindrical shape</span>
+				</span>They can be useful in powering autonomous sensors for long-term operations in less accessible regions. Upflow mode MFCs as shown in Fig. D and E are more suitable for wastewater treatment because they are relatively easy to scale-up. On the other hand, fluid recirculation is used in both cases. The energy costs of pumping fluid around are much greater than their power outputs. Therefore, their primary function is not power generation, but rather wastewater treatment. The MFC design in Fig. E offers a low internal resistance of 4 ohm because the anode and cathode are in close proximity over a large PEM surface area.<br/><br/>Min and Logan (2004) designed a Flat Plate MFC (FPMFC) with only a single electrode/PEM assembly. Its compact configuration resembles that of a conven-tional chemical fuel cell.
+				A carbon-cloth cathode that was hot pressed to a Nafion PEM is in contact with a single sheet of carbon paper that serves as an anode to form an electrode/PEM assembly. The FPMFC with two non-conductive polycarbonate plates is bolted together. The PEM links the anodic and the cathodic chambers as shown in Fig. 5B. The anodic chamber can be fed with wastewater or other organic biomass and dry air can be pumped through the cathodic chamber without any liquid catholyte, both in a continuous flow mode.</p>
+				<h2 id="_single">&nbsp;&nbsp;Single-compartment MFC systems</h2>
+				<p class="upper">Due to their complex designs, two-compartment MFCs are difficult to scale-up even though they can be operated in either batch or continuous mode. One-compartment MFCs offer simpler designs and cost savings. They typically possess only an anodic chamber without the requirement of aeration in a cathodic chamber. Park and Zeikus (2003) designed a one-compartment MFC consisting of an anode in a rectangular anode chamber coupled with a porous air- cathode that is exposed directly to the air as shown in Fig. 6A. Protons are transferred from the anolyte solution to the porous air-cathode. Liu and Logan (2004) designed an MFC consisting of an anode placed inside a plastic cylindrical chamber and a cathode placed outside. Fig. 6B shows the schematic of a laboratory prototype of the MFC bioreactor. The anode was made of carbon paper without wet proofing. The cathode was either a carbon electrode/ PEM assembly fabricated by bonding the PEM directly onto a flexible carbon-cloth electrode, or a stand alone rigid carbon paper without PEM. A tubular MFC system with an outer cathode and an inner anode using graphite granules is shown in Fig. 6C. In the absence of a cathodic chamber, catholyte is supplied to the cathode by dripping an electrolyte over the outer woven graphite mat to keep it from drying up. Rabaey et al. (2005b) pointed out that the use of sustainable, open-air cathodes is critical to practical implementation of such MFCs. Another type of SC-MFC reactor was reported byLiu et al. (2004). Their SC-MFC housed both the anode and the cathode in one chamber. It consisted of a single cylindrical Plexiglas chamber with eight graphite rods (anode) in a concentric arrangement surrounding a single cathode as shown in Fig. 7. A carbon/platinum catalyst/proton exchange membrane layer was fused to a plastic support tube to form the air-porous cathode in the center.</p>
+				<h2 id="_upflow">&nbsp;&nbsp;Up-flow mode MFC systems</h2>
+				<p class="upper">Jang et al. (2004) provided another design of an MFC working in continuous flow mode. A Plexiglas cylinder was partitioned into two sections by glass wool and glass bead layers. These two sections served as anodic and cathodic chambers, respectively as shown in Figure. 
+				<span class="images">
+						<img src="visuals/content/design.up.jpg" title="Up-flow mode MFC systems." />
+						<span class="desc">Up-flow mode MFC systems</span>
+				</span>The disk-shaped graphite felt anode and cathode were placed at the bottom and the top of the reactor, respectively. Figure shows another MFC design inspired by the same general idea shown in Figure but with a rectangular container and without a physical separation achieved by using glass wool and glass beads. The feed stream is supplied to the bottom of the anode and the effluent passes through the cathodic chamber and exits at the top continuously. There are no separate anolyte and catholyte. And the diffusion barriers between the anode and cathode provide a DO gradient for proper operation of the MFCs.</p>
+				<h2 id="_stacked">&nbsp;&nbsp;Stacked microbial fuel cell</h2>
+				<p class="upper">A stacked MFC is shown in Figure for the investigation of performances of several MFCs connected in series and in parallel. Enhanced voltage or current output can be achieved by connecting several MFCs in series or in parallel. No obvious ad-verse effect on the maximum power output per MFC unit was observed. Coulombic efficiencies 
+				<span class="images">
+						<img src="visuals/content/design.stacked.jpg" title="Stacked microbial fuel cell" />
+						<span class="desc">Stacked microbial fuel cell</span>
+				</span>(In fact it is not real Coulombic efficiency but Coulombic percent conversion. Coulombic efficiency describes how much of the electrons can be abstracted from the electron-rich substrates via the electrodes. It is not a measurement of electron transfer rate, while the authors described how much substrate was used for electricity generation before the stream flowed out of the MFCs or MFC stacks) differed greatly in the two arrangements with the parallel connection giving about an efficiency six times higher when both the series were operated at the same volumetric flow rate. The parallel-connected stack has higher short circuit current than the series connected stack. This means that higher maximum bioelectrochemical rection rate is allowed in the connection of MFCs in parallel than in series. Therefore to maximize Chemical Oxygen Demand (COD) removal, a parallel connection is preferred if the MFC units are not independently operated.</p>
+				<div class="outer">
+					<a href="#">[Go]</a>
+					<div>
+						<a href="performance.html">Next Page: <b>Performance of MFCs</b></a>
+						<a href="types.html">Previous Page: <b>Types of MFCs</b></a>
+					</div>
+				</div>
+				<hr/>
+				<div id="_related" class="related">
+					<span>Related Pages</span>
+					<ul>	
+						<li><a href="applications.html">Applications</a></li>
+						<li><a href="facts.html">Facts about MFCs</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="footer">
+				<div id="left">
+					<img src="visuals/core/valid.jpg" alt="" />
+					<img src="visuals/core/jquery.png" alt="" />
+				</div>
+				<div id="right">
+					<img src="visuals/core/css3.png" alt="" />
+					<img src="visuals/core/html5.png" alt="" />
+				</div>
+				<p>Copyright &copy; <br/> Sunbeam Schools, Lahartara <br/>Designed by Arfat Salman and Rishabh Jain</p>
+			</div><!--footer -->
+		</div><!--main-container-->
+	</body>
+</html>

@@ -1,0 +1,22 @@
+dt {
+	background: -webkit-linear-gradient(center top , hsl(198, 74%, 94%) 0%, hsl(198, 81%, 86%) 50%, hsl(197, 70%, 78%) 51%, hsl(199, 84%, 55%) 100%) repeat scroll 0 0 transparent;
+	background: -moz-linear-gradient(center top , hsl(198, 74%, 94%) 0%, hsl(198, 81%, 86%) 50%, hsl(197, 70%, 78%) 51%, hsl(199, 84%, 55%) 100%) repeat scroll 0 0 transparent;
+	background: -o-linear-gradient(center top , hsl(198, 74%, 94%) 0%, hsl(198, 81%, 86%) 50%, hsl(197, 70%, 78%) 51%, hsl(199, 84%, 55%) 100%) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(center top , hsl(198, 74%, 94%) 0%, hsl(198, 81%, 86%) 50%, hsl(197, 70%, 78%) 51%, hsl(199, 84%, 55%) 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(center top , hsl(198, 74%, 94%) 0%, hsl(198, 81%, 86%) 50%, hsl(197, 70%, 78%) 51%, hsl(199, 84%, 55%) 100%) repeat scroll 0 0 transparent;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px !important;
+}
+
+dd {
+	padding: 0 0 25px 50px !important;
+}
+
+dd a {
+	color: blue !important;
+}
+
+.upper li {
+	list-style: inside;
+	padding: 5px 5px;
+}

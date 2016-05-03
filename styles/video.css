@@ -1,0 +1,37 @@
+
+.video {
+    -moz-transition: all 0.4s ease 0s;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 0 10px 5px;
+    width: 670px;
+}
+.video img {
+    height: 300px;
+    margin: 0;
+    padding: 10px 5px;
+    width: 300px;
+}
+.video:hover {
+    background: none repeat scroll 0 0 hsla(206, 70%, 70%, 0.2);
+    box-shadow: 0 0 5px 0 black;
+}
+.video:hover .mask {
+    opacity: 1;
+}
+.mask {
+    -moz-transition: all 0.5s ease 0s;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    background-image: url("../visuals/core/A.png");
+    background-position: 75px 80px;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+    height: 325px;
+    opacity: 0;
+    position: absolute;
+    width: 310px;
+}
+.video p {
+    position: absolute;
+    margin: -310px 325px;
+    width: 300px;
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link type="text/css" href="styles/index.css" rel="stylesheet" />
+		<link type="text/css" href="styles/reset.css" rel="stylesheet" />
+		<link type="text/css" href="styles/animate.css" rel="stylesheet" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt1.css" title="alternate 1" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt2.css" title="alternate 2" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<title>
+		Home :: Microbial Fuel Cell
+		</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="header">
+				<a href="index.html">
+					<div id="title-hover"></div>
+				</a>
+				<a href="index.html">
+					<div id="titlebar"></div>
+				</a>				
+				<img id="anode" src="visuals/core/anode1.png" title="" alt="" />				
+				<img id="cathode" src="visuals/core/cathode1.png" title="" alt="" />
+				<div id="menu">
+					<ul id="nav">
+						<li><a id="clicked" href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>						
+						<li><a href="quiz.html">Quiz</a></li>						
+						<li><a href="sitemap.html">Sitemap</a></li>						
+						<li><a href="references.html#first">References</a></li>						
+						<li><a href="contact.html">Contact Us</a></li>					
+					</ul>
+				</div>
+			</div>
+			<div id="slideshow">
+					<div class="slides">
+						<ul>
+							<li id="slide-one">
+								<h2>4<sup>th</sup> International MFC Conference</h2>
+								<p>
+									<img src="visuals/core/slider/slide1.jpg" alt="" />
+								</p>
+							</li>
+							<li id="slide-two">
+								<h2>Different types of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide2.jpg" alt="" />
+								</p>
+							</li>   
+							<li id="slide-three">
+								<h2>Robo Insect Using MFC for Power</h2>
+								<p>
+									<img src="visuals/core/slider/slide3.jpg" alt="" />
+								</p>
+							</li> 
+							<li id="slide-four">
+								<h2>Schematic of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide4.png" alt="" />
+								</p>
+							</li>
+							<li id="slide-five">
+								<h2>Waste Water Plant in Australia using MFCs</h2>
+								<p>
+								<img src="visuals/core/slider/slide5.jpg" alt="" />
+								</p>
+							</li> 
+						</ul>
+					</div>
+					<ul class="slides-nav">
+						<li class="on">
+							<a href="#slide-one"><img src="visuals/core/slider/thumb_1.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-two"><img src="visuals/core/slider/thumb_2.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-three"><img src="visuals/core/slider/thumb_3.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-four"><img src="visuals/core/slider/thumb_4.jpg" alt=""/></a>
+						</li>
+						<li>
+							<a href="#slide-five"><img src="visuals/core/slider/thumb_5.jpg" alt=""/></a>
+						</li>
+					</ul>
+			</div>			
+			<div id="sidebar">
+				<ul>
+					<li class="head">
+						<span>Search</span>
+						<div class="hr"></div>
+						<div>
+							<form method="get" action="http://www.google.com/search">
+								<input  id="text" type="text" name="q" size="31" maxlength="255" value="" />
+								<br/>
+								<input id="check" type="checkbox"  name="sitesearch" value="wikipedia.org" checked /> Search this Site
+								<br/>
+								<input id="button" type="submit"  value="Search" />
+							</form>
+						</div>
+					</li>
+					<li class="head">
+						<span>Themes</span>
+						<div class="hr"></div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('default'); return false;">Default Style</a>
+							</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 1'); return false;">Style#1</a>
+						</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 2'); return false;">Style#2</a>
+						</div>
+					</li>
+					<li class="head">
+						<span>Share</span>	
+						<div class="hr"></div>
+						<div>
+							<ul id="share">
+								<li>
+									<a href="https://www.facebook.com/MicrobialFuelCell">
+										<img src="visuals/core/share/facebook_large.png" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="https://delicious.com/">
+										<img src="visuals/core/share/delicious_large.png" alt=""/>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:giney.paradise@gmail.com">
+										<img src="visuals/core/share/email_large.png" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.feedburner.com/">
+										<img src="visuals/core/share/feed_large.png" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="http://technorati.com/">
+										<img src="visuals/core/share/technorati_large.png" alt="" />
+									</a>	
+								</li>
+								<li>
+									<a href="https://twitter.com/MFCtechnology">
+										<img src="visuals/core/share/twitter_large.png" alt=""/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="head">
+						<span>Quick Links</span>
+						<div class="hr"></div>
+						<div>
+							<ul id="bubblemenu">
+								<li>
+									<span>Introduction</span>
+									<div>
+										<p>Introduction</p>
+										<a href="introduction.html">Introduction</a><br/>
+										<a href="history.html">History of MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Types of MFCs</span>
+									<div>
+										<p>Types of MFCs</p>
+										<a href="types.html#_med">Mediator MFC</a><br/>
+										<a href="types.html#_med-free">Mediator-free MFCs</a><br/>
+										<a href="types.html#_mec">Microbial electrolysis cell</a><br/>
+										<a href="types.html#_soil">Soil-based MFCs</a><br/>
+										<a href="types.html#_photo">Phototrophic Biofilm MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Design</span>
+									<div>
+										<p>Design of MFCs</p>
+										<a href="design.html#_two">Two-compartment MFC</a><br/>
+										<a href="design.html#_single">Single-compartment MFC</a><br/>
+										<a href="design.html#_upflow">Up-flow mode MFC</a><br/>
+										<a href="design.html#_stacked">Stacked MFC</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Performance</span>
+									<div>
+										<p>Performance</p>
+										<a href="performance.html">Ideal performance</a><br/>
+										<a href="performance.html">Actual MFC performance</a><br/>
+										<a href="performance.html">Effects of operating conditions</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Applications</span>
+									<div>
+										<p>Applications of MFCs</p>
+										<a href="applications.html#_elec">Power generation</a><br/>
+										<a href="applications.html#_h2">Biohydrogen</a><br/>
+										<a href="applications.html#_water">Waste Water Treatment</a><br/>
+										<a href="applications.html#_sensor">Biosensor</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Miscellaneous</span>
+									<div>
+										<p>Extra Topics</p>
+										<a href="glossary.html">Glossary</a><br/>
+										<a href="microbes.html">Microbes</a><br/>
+										<a href="future.html">Future of MFC</a><br/>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div><!-- sidebar -->
+
+			<div id="content">
+				<div id="submenu">
+					<ul class="panel">
+						<li>
+							<a onclick="Animate2id('#header');return false" href="#">Top</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_welcome');return false" href="#">Welcome to MFC</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_browse');return false" href="#">Browse the Site</a>
+						</li>
+					</ul>
+					<h3 class="flip-title">MENU</h3>
+				</div>
+				<div class="var-size">
+					<ul>	
+						<li>Font Size: </li>
+						<li><a id="size14">&nbsp;&nbsp;-&nbsp;&nbsp;</a></li>
+						<li><a id="size16">&nbsp;&nbsp;+&nbsp;&nbsp;</a></li>
+						<li><a id="size18">Reset</a></li>
+					</ul>
+				</div>
+				<span id="_welcome">Welcome to Microbial Fuel Cell</span>
+				<div id="path">
+					<hr/>
+					<ul>
+						<li>Path: </li>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+					<hr/>
+				</div>
+				<p class="upper">
+				<span class="images">
+						<img src="visuals/content/index.microbial.jpg" title="Microbial Fuel Cell" alt="" />
+						<span class="desc">Microbial Fuel Cell</span>
+				</span>A microbial fuel cell (MFC) is a bioreactor that converts chemical energy in the chemical bonds in organic compounds to electrical energy through catalytic reactions of microorganisms under anaerobic conditions.<br/><br/>
+				
+				It has been known for many years that it is possible to generate electricity directly by using bacteria to break down organic substrates. The recent energy crisis has reinvigorated interests in MFCs among academic researchers as a way to generate electric power or hydrogen from biomass without a net carbon emission into the ecosystem. MFCs can also be used in wastewater treatment facilities to break down organic matters.<br/><br/>They have also been studied for applications as biosensors such as sensors for biological oxygen demand monitoring. Power output and Coulombic efficiency are significantly affected by the types of microbe in the anodic chamber of an MFC,configuration of the MFC and operating conditions. Currently, real-world applications of MFCs are limited because of their low power density level of several thousand mW/m<sup>2</sup>. Efforts are being made to improve the performance and reduce the construction and operating costs of MFCs.<b><a style="color:blue" href="glossary.html"> Read More ...</a></b></p>
+				<span id="_browse">Browse</span>
+				<br/>
+				<div id="browse">
+					<ul>
+						<li>
+							<img src="visuals/index/history.png" title="History" alt=""/>
+							<p class="title"><a href="history.html">History</a></p>
+							<p class="description">MFC first conceived at the turn of the nineteenth century by M. Potter at ...</p>
+						</li>
+						<li>
+							<img src="visuals/index/construction.png" title="History" alt=""/>
+							<p class="title"><a href="design.html">Construction</a></p>
+							<p class="description">MFC first conceived at the turn of the nineteenth century by M. Potter at ...</p>
+						</li>
+						<li>
+							<img src="visuals/index/theory.png" title="History" alt=""/>
+							<p class="title"><a href="performance.html">Performance</a></p>
+							<p class="description">MFC first conceived at the turn of the nineteenth century by M. Potter at ...</p>
+						</li>
+						<li>
+							<img src="visuals/index/types.png" title="" alt=""/>
+							<p class="title"><a href="types.html">Types</a></p>
+							<p class="description">Broadly, there are two types of microbial fuel cell: mediator and mediator-less microbial fuel cells ...</p>
+						</li>
+						<li>
+							<img src="visuals/index/electricity.png" title="" alt=""/>
+							<p class="title"><a href="electricity.html">Electricity Generation</a></p>
+							<p class="description">When micro-organisms consume a substance such as sugar in aerobic conditions they produce ...</p>
+						</li>
+						<li>
+							<img src="visuals/index/apps.png" title="" alt=""/>
+							<p class="title"><a href="applications.html">Applications</a></p>
+							<p class="description">MFCs are used in Power Generation and biosensors eg. BOD (Biochemical Oxygen Demand)...</p>
+						</li>
+						<li>
+							<img src="visuals/index/research.png" title="" alt=""/>
+							<p class="title"><a href="research.html">Research</a></p>
+							<p class="description">Recording the maximum current obtained by the cell when connecting it to a resistance ...</p>
+						</li>
+						<li>
+							<img src="visuals/index/glossary.png" title="" alt=""/>
+							<p class="title"><a href="glossary.html">Glossary / Jargon</a></p>
+							<p class="description">MFCs are used in Power Generation and biosensors eg. BOD (Biochemical Oxygen Demand)...</p>
+						</li>
+					</ul>
+				</div>
+			</div><!-- content-->
+			<div id="boxes">
+				<div class="view view-fourth"> 
+					<img src="visuals/index/video.png" alt="" /> 
+					<div class="mask"> 
+						<h2>Video</h2> 
+						<p>Videos and Movies related to MFCs</p> 
+						<a href="video.html" class="info">Read More</a> 
+					</div> 
+				</div>
+				<div class="view view-fourth"> 
+					<img src="visuals/index/facts.png" alt="" /> 
+					<div class="mask"> 
+						<h2>Facts</h2> 
+						<p>Facts about MFC and Energy</p> 
+						<a href="facts.html" class="info">Read More</a> 
+					</div> 
+				</div>
+				<div class="view view-fourth"> 
+					<img src="visuals/index/articles.png" alt="" /> 
+					<div class="mask"> 
+						<h2>Articles</h2> 
+						<p>Latest Articles from Various Websites</p> 
+						<a href="articles.html" class="info">Read More</a> 
+					</div> 
+				</div>	
+				<div class="view view-fourth"> 
+					<img src="visuals/index/exp.png" alt="" /> 
+					<div class="mask"> 
+						<h2>Experiments</h2> 
+						<p>Experiments to design your own MFC </p> 
+						<a href="exp.html" class="info">Read More</a> 
+					</div> 
+				</div>					
+			</div><!--boxes-->
+			<div id="footer">
+				<div id="left">
+					<img src="visuals/core/valid.jpg" alt="" />
+					<img src="visuals/core/jquery.png" alt="" />
+				</div>
+				<div id="right">
+					<img src="visuals/core/css3.png" alt="" />
+					<img src="visuals/core/html5.png" alt="" />
+				</div>
+				<p>Copyright &copy; <br/> Sunbeam Schools, Lahartara <br/> Designed by Arfat Salman and Rishabh Jain</p>
+			</div><!--footer -->
+		</div><!--main-container-->
+	</body>
+</html>

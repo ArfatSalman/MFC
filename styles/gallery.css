@@ -1,0 +1,243 @@
+#page-wrap > p {
+	color: blue;
+	font-family: tangerine;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 15px 0 10px 325px;
+	text-shadow: 0 0 2px blue;
+}
+
+#page-wrap > span {
+	font-family: Verdana;
+	margin: 0 0 0 245px;
+}
+
+#page-wrap {
+	background: none repeat scroll 0 0 padding-box white;
+	border: 8px solid transparent;
+
+	-webkit-box-shadow: 0 0 8px 0 white;
+	box-shadow: 0 0 8px 0 white;
+	height: 1000px;
+	width: 914px;
+}
+
+.b_gallery {
+	padding: 15px;
+	width: 670px;
+}
+
+.b_gallery li {
+	border: 2px solid hsl(0, 0%, 0%);
+	display: inline-block;
+	float: left;
+	list-style: none outside none;
+	margin: 0 10px 10px 0;
+}
+
+.b_gallery li a,ul.b_gallery li img {
+	display: block;
+}
+
+.b_gallery li:hover {
+	-webkit-animation: 1s ease 0s normal none 1 wiggle;
+	-moz-animation: 1s ease 0s normal none 1 wiggle;
+	-ms-animation: 1s ease 0s normal none 1 wiggle;
+	-o-animation: 1s ease 0s normal none 1 wiggle;
+	animation: 1s ease 0s normal none 1 wiggle;
+}
+
+.overlay_container {
+	counter-reset: b_gallery;
+}
+
+.overlay_container > li {
+	counter-increment: b_gallery;
+}
+
+.overlay {
+	background: none repeat scroll 0 0 hsla(0, 0%, 0%, 0.7);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	width: 100%;
+	z-index: 999;
+}
+
+#helper {
+	display: none;
+}
+
+body:hover #helper {
+	display: none;
+}
+
+#helper {
+	color: hsl(240, 1%, 38%);
+	display: block;
+	left: 50%;
+	margin: 0 0 0 -200px;
+	position: absolute;
+	top: 50%;
+	width: 400px;
+	z-index: 1000;
+}
+
+.overlay a,.overlay > a + p:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.overlay:hover a,.overlay a:active,.overlay:hover > a + p:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.overlay > a {
+	display: table-cell;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.overlay > a + p:after {
+	background: none repeat scroll 0 0 white;
+	border: 2px solid hsl(0, 0%, 0%);
+	border-radius: 5px 5px 5px 5px;
+	content: "" " "attr(title);
+	display: block;
+	font-family: Verdana;
+	font-size: 20px;
+	left: 50%;
+	margin: -10px 0 0 -505px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 93%;
+	width: 985px;
+}
+
+.overlay > p a,.overlay > p a[rel="next"] {
+	background: none repeat scroll 0 0 hsla(240, 1%, 38%, 0.5);
+	border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 5px 5px 5px 5px;
+	color: hsl(0, 0%, 100%);
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 50px;
+	padding: 20px;
+	position: absolute;
+	right: 10%;
+	text-decoration: none;
+	text-shadow: 2px 2px hsl(0, 0%, 0%);
+	top: 50%;
+
+	-webkit-transition: -webkit-box-shadow 0.2s ease 0s;
+	-moz-transition: -moz-box-shadow 0.2s ease 0s;
+	-o-transition: box-shadow 0.2s ease 0s;
+	-ms-transition: box-shadow 0.2s ease 0s;
+	transition: box-shadow 0.2s ease 0s;
+}
+
+.overlay > p a[rel="prev"] {
+	left: 10%;
+	right: inherit;
+}
+
+.overlay > p a:hover,.overlay > p a:focus {
+	background: none repeat scroll 0 0 hsla(240, 1%, 38%, 0.8);
+
+	-webkit-box-shadow: 2px 2px 10px hsl(0, 0%, 100%);
+	box-shadow: 2px 2px 10px hsl(0, 0%, 100%);
+}
+
+.overlay:target {
+	display: table;
+	visibility: visible;
+}
+
+.overlay:target > a {
+	background: url("../visuals/gallery/images.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img2.overlay:target > a {
+	background: url("../visuals/gallery/urine-mfc.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img3.overlay:target > a {
+	background: url("../visuals/gallery/38.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img4.overlay:target > a {
+	background: url("../visuals/gallery/a.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img5.overlay:target > a {
+	background: url("../visuals/gallery/MFCfig5.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img6.overlay:target > a {
+	background: url("../visuals/gallery/solar.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img7.overlay:target > a {
+	background: url("../visuals/gallery/robo.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img8.overlay:target > a {
+	background: url("../visuals/gallery/water-treatment-facility.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img9.overlay:target > a {
+	background: url("../visuals/gallery/20110802233130365.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img10.overlay:target > a {
+	background: url("../visuals/gallery/app.waste.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img11.overlay:target > a {
+	background: url("../visuals/gallery/underwater microbial fuel cell.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img12.overlay:target > a {
+	background: url("../visuals/gallery/cell.png") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img13.overlay:target > a {
+	background: url("../visuals/gallery/shapeimage_3.png") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img14.overlay:target > a {
+	background: url("../visuals/gallery/robot20plant20esparza2.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img15.overlay:target > a {
+	background: url("../visuals/gallery/FuelCellTypes.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img16.overlay:target > a {
+	background: url("../visuals/gallery/bacteria.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img17.overlay:target > a {
+	background: url("../visuals/gallery/bacterial-energy-creation.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img18.overlay:target > a {
+	background: url("../visuals/gallery/imscn082206_02_01.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img19.overlay:target > a {
+	background: url("../visuals/gallery/gowanus_lowline_connections_domestic_laundry_03.jpg") no-repeat scroll 50% 50% transparent;
+}
+
+#b_gallery_img20.overlay:target > a {
+	background: url("../visuals/gallery/efc_640x360.jpg") no-repeat scroll 50% 50% transparent;
+}

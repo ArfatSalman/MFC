@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<link type="text/css" href="styles/index.css" rel="stylesheet" />
+		<link type="text/css" href="styles/gallery.css" rel="stylesheet" />
+		<link type="text/css" href="styles/reset.css" rel="stylesheet" />
+		<link type="text/css" href="styles/animate.css" rel="stylesheet" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt1.css" title="alternate 1" />
+		<link rel="alternate stylesheet" type="text/css" href="styles/stylealt2.css" title="alternate 2" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<title>
+		Gallery :: MFC
+		</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<div id="header">
+				<a href="index.html">
+					<div id="title-hover"></div>
+				</a>
+				<a href="index.html">
+					<div id="titlebar"></div>
+				</a>			
+				<img id="anode" src="visuals/core/anode1.png" title="" />				
+				<img id="cathode" src="visuals/core/cathode1.png" title="" />
+				<div id="menu">
+					<ul id="nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a id="clicked" href="gallery.html">Gallery</a></li>						
+						<li><a href="quiz.html">Quiz</a></li>						
+						<li><a href="sitemap.html">Sitemap</a></li>						
+						<li><a href="references.html#first">References</a></li>						
+						<li><a href="contact.html">Contact Us</a></li>					
+					</ul>
+				</div>
+			</div>
+			<div id="slideshow">
+					<div class="slides">
+						<ul>
+							<li id="slide-one">
+								<h2>4<sup>th</sup> International MFC Conference</h2>
+								<p>
+									<img src="visuals/core/slider/slide1.jpg"/>
+								</p>
+							</li>
+							<li id="slide-two">
+								<h2>Different types of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide2.jpg"/>
+								</p>
+							</li>   
+							<li id="slide-three">
+								<h2>Robo Insect Using MFC for Power</h2>
+								<p>
+									<img src="visuals/core/slider/slide3.jpg"/>
+								</p>
+							</li> 
+							<li id="slide-four">
+								<h2>Schematic of MFCs</h2>
+								<p>
+									<img src="visuals/core/slider/slide4.png"/>
+								</p>
+							</li>
+							<li id="slide-five">
+								<h2>Waste Water Plant in Australia using MFCs</h2>
+								<p>
+								<img src="visuals/core/slider/slide5.jpg"/>
+								</p>
+							</li> 
+						</ul>
+					</div>
+					<ul class="slides-nav">
+						<li class="on">
+							<a href="#slide-one"><img src="visuals/core/slider/thumb_1.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-two"><img src="visuals/core/slider/thumb_2.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-three"><img src="visuals/core/slider/thumb_3.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-four"><img src="visuals/core/slider/thumb_4.jpg"/></a>
+						</li>
+						<li>
+							<a href="#slide-five"><img src="visuals/core/slider/thumb_5.jpg"/></a>
+						</li>
+					</ul>
+			</div>
+			<div id="sidebar">
+				<ul>
+					<li class="head">
+						<span>Search</span>
+						<div class="hr"></div>
+						<div>
+							<form method="get" action="http://www.google.com/search">
+								<input  id="text" type="text" name="q" size="31" maxlength="255" value="" />
+								<br/>
+								<input id="check" type="checkbox"  name="sitesearch" value="wikipedia.org" checked /> Search this Site
+								<br/>
+								<input id="button" type="submit"  value="Search" />
+							</form>
+						</div>
+					</li>
+					<li class="head">
+						<span>Themes</span>
+						<div class="hr"></div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('default'); return false;">Default Style</a>
+							</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 1'); return false;">Style#1</a>
+						</div>
+						<div class="altstyle">
+							<a href="#" onclick="setActiveStyleSheet('alternate 2'); return false;">Style#2</a>
+						</div>
+					</li>
+					<li class="head">
+						<span>Share</span>
+						<div class="hr"></div>
+						<div>
+							<ul id="share">
+								<li>
+									<a href="https://www.facebook.com/MicrobialFuelCell">
+										<img src="visuals/core/share/facebook_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="https://delicious.com/">
+										<img src="visuals/core/share/delicious_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:giney.paradise@gmail.com">
+										<img src="visuals/core/share/email_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.feedburner.com/">
+										<img src="visuals/core/share/feed_large.png"/>
+									</a>
+								</li>
+								<li>
+									<a href="http://technorati.com/">
+										<img src="visuals/core/share/technorati_large.png"/>
+									</a>	
+								</li>
+								<li>
+									<a href="https://twitter.com/MFCtechnology">
+										<img src="visuals/core/share/twitter_large.png"/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="head">
+						<span>Quick Links</span>
+						<div class="hr"></div>
+						<div>
+							<ul id="bubblemenu">
+								<li>
+									<span>History</span>
+									<div>
+										<p>History of MFCs</p>
+										<a href="history.html">History of MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Types</span>
+									<div>
+										<p>Types of MFCs</p>
+										<a href="#">Mediator microbial fuel cell</a><br/>
+										<a href="#">Mediator-free MFCs</a><br/>
+										<a href="#">Microbial electrolysis cell</a><br/>
+										<a href="#">Soil-based microbial fuel cell</a><br/>
+										<a href="#">Phototrophic biofilm MFCs</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Electricity</span>
+									<div>
+										<p>Electricity Generation</p>
+										<a href="#">Electrical generation process</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Applications</span>
+									<div>
+										<p>Applications of MFCs</p>
+										<a href="#">Power generation</a><br/>
+										<a href="#">Education</a><br/>
+										<a href="#">Biosensor</a><br/>
+									</div>
+								</li>
+								<li>
+									<span>Research</span>
+									<div>
+										<p>Current Research</p>
+										<a href="#">Current Research Practices</a><br/>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div><!-- sidebar -->
+			<div id="page-wrap">
+				<div id="submenu">
+					<ul class="panel">
+						<li>
+							<a onclick="Animate2id('#header');return false" href="#">Top</a>
+						</li>
+						<li>
+							<a onclick="Animate2id('#_related');return false" href="#">Related Pages</a>
+						</li>
+					</ul>
+					<h3 class="flip-title">MENU</h3>
+				</div>
+				<p>Gallery</p>
+				<span>Click on any Image to View Full Size</span>
+				<ul class="b_gallery">
+						<li>
+							<a href="#b_gallery_img1" accesskey="1" title="Click to Open larger version">
+								<img src="visuals/gallery/images.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img2" title="Open larger version">
+								<img src="visuals/gallery/urine-mfc.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img3" title="Open larger version">
+								<img src="visuals/gallery/38.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img4" title="Open larger version">
+								<img src="visuals/gallery/a.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img5" title="Open larger version">
+								<img src="visuals/gallery/MFCfig5.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img6" title="Open larger version">
+								<img src="visuals/gallery/solar.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img7" title="Open larger version">
+								<img src="visuals/gallery/robo.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img8" title="Open larger version">
+								<img src="visuals/gallery/water-treatment-facility.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img9" title="Open larger version">
+								<img src="visuals/gallery/20110802233130365.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img10" title="Open larger version">
+								<img src="visuals/gallery/app.waste.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img11" title="Open larger version">
+								<img src="visuals/gallery/underwater microbial fuel cell.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img12" title="Open larger version">
+								<img src="visuals/gallery/cell.png" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img13" title="Open larger version">
+								<img src="visuals/gallery/shapeimage_3.png" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img14" title="Open larger version">
+								<img src="visuals/gallery/robot20plant20esparza2.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img15" title="Open larger version">
+								<img src="visuals/gallery/FuelCellTypes.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img16" title="Open larger version">
+								<img src="visuals/gallery/bacteria.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img17" title="Open larger version">
+								<img src="visuals/gallery/bacterial-energy-creation.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img18" title="Open larger version">
+								<img src="visuals/gallery/imscn082206_02_01.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img19" title="Open larger version">
+								<img src="visuals/gallery/gowanus_lowline_connections_domestic_laundry_03.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+						<li>
+							<a href="#b_gallery_img20" title="Open larger version">
+								<img src="visuals/gallery/efc_640x360.jpg" width="150" height="150" alt=" " id="b_gallery01" />
+							</a>
+						</li>
+					</ul>
+					<ul class="overlay_container">
+						<li class="overlay" id="b_gallery_img1">
+							<a href="#close" accesskey="x" title="Close future box"></a>
+							<p title="Relaxed position in Piezoelectric Generator">
+								<a href="#b_gallery_img2" accesskey="2" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img2">
+							<a href="#close" title="Close future box"></a>
+							<p title="Compressed Position in a Piezoelectric Generator">
+								<a href="#b_gallery_img1" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img3" accesskey="3" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>	
+						<li class="overlay" id="b_gallery_img3">
+							<a href="#close" title="Close future box"></a>
+							<p title="Dynamo Attached to Piezo Apparatus">
+								<a href="#b_gallery_img2" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img4" accesskey="4" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img4">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img3" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img5" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img5">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img4" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img6" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img6">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img5" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img7" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img7">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img6" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img8" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img8">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img7" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img9" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img9">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img8" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img10" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img10">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img9" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img11" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img11">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img10" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img12" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img12">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img11" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img13" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img13">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img12" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img14" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img14">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img13" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img15" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img15">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img14" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img16" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img16">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img15" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img17" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img17">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img16" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img18" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img18">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img17" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img19" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img19">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img18" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img20" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+						<li class="overlay" id="b_gallery_img20">
+							<a href="#close" title="Close future box"><span></span></a>
+							<p title="Piezo Generator fitted underground on a Busy Road">
+								<a href="#b_gallery_img19" rel="prev" title="Previous">&lt;</a> <a href="#b_gallery_img5" accesskey="5" rel="next" title="Next">&gt;</a>
+							</p>
+						</li>
+					</ul>
+			</div><!--page-wrap-->
+			
+			<div id="footer">
+				<div id="left">
+					<img src="visuals/core/valid.jpg" alt="" />
+					<img src="visuals/core/jquery.png" alt="" />
+				</div>
+				<div id="right">
+					<img src="visuals/core/css3.png" alt="" />
+					<img src="visuals/core/html5.png" alt="" />
+				</div>
+				<p>Copyright &copy; <br/> Sunbeam Schools, Lahartara <br/> Designed by Arfat Salman and Rishabh Jain</p>
+			</div><!--footer -->
+		</div><!--main-container-->
+			
+	</body>
+</html>

@@ -1,0 +1,27 @@
+
+table {
+    margin: 0 0 10px 5px;
+    width: 660px;
+    -moz-transition: all 0.8s ease;
+}
+table th {
+    font-size: 1.2em;
+    font-family: Verdana;
+}
+table tr {
+    background: none repeat scroll 0 0 gold;
+    -moz-transition: all 0.8s ease;
+}
+table td {
+    background: none repeat scroll 0 0 aqua;
+    font-family: Verdana;
+    font-size: 17px;
+    padding: 10px 14px;
+    text-align: center;
+}
+table:hover tr {
+    opacity: 0.2;
+}
+table tr:hover {
+    opacity: 1;
+}

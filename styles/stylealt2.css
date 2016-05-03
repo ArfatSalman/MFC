@@ -1,0 +1,81 @@
+body {
+	background: url("../visuals/core/bglines.png") repeat scroll 0 0 transparent;
+}
+
+#main-container {
+	background: none repeat scroll 0 0 transparent;
+}
+
+#titlebar {
+	background: url("../visuals/core/style1.title.png") repeat scroll 0 0 transparent;
+
+	-webkit-box-shadow: 0 0 0 0;
+	box-shadow: 0 0 0 0;
+}
+
+#title-hover {
+	background: url("../visuals/core/style1.title.hover.png") repeat scroll 0 0 transparent;
+}
+
+#content {
+	background-attachment: scroll;
+
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+	background-clip: content-box;
+	background-color: hsl(0, 0%, 96%);
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+
+	-webkit-background-size: auto auto;
+	-moz-background-size: auto auto;
+	background-size: auto auto;
+
+	-webkit-box-shadow: 0 0 8px 0 black;
+	box-shadow: 0 0 8px 0 black;
+}
+
+.flip-title {
+	-webkit-box-shadow: 0 0 8px 0 black;
+	box-shadow: 0 0 8px 0 black;
+}
+
+#footer {
+	-webkit-box-shadow: 0 0 8px 0 black;
+	box-shadow: 0 0 8px 0 black;
+}
+
+.view {
+	background-attachment: scroll;
+
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+	background-clip: content-box;
+	background-color: hsl(0, 0%, 92%);
+	background-image: none;
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: repeat;
+
+	-webkit-background-size: auto auto;
+	-moz-background-size: auto auto;
+	background-size: auto auto;
+
+	-webkit-box-shadow: 0 0 8px 0;
+	box-shadow: 0 0 8px 0;
+}
+
+#sidebar {
+	-webkit-box-shadow: 0 0 8px 0 green;
+	box-shadow: 0 0 8px 0 green;
+}
+
+.flip-title {
+	background: -webkit-linear-gradient(top, hsla(94,60%,73%,1) 0%, hsla(95,77%,44%,1) 50%, hsla(94,60%,73%,1) 100%);
+	background: -moz-linear-gradient(top, hsla(94,60%,73%,1) 0%, hsla(95,77%,44%,1) 50%, hsla(94,60%,73%,1) 100%);
+	background: -o-linear-gradient(top, hsla(94,60%,73%,1) 0%, hsla(95,77%,44%,1) 50%, hsla(94,60%,73%,1) 100%);
+	background: -ms-linear-gradient(top, hsla(94,60%,73%,1) 0%, hsla(95,77%,44%,1) 50%, hsla(94,60%,73%,1) 100%);
+	background: linear-gradient(top, hsla(94,60%,73%,1) 0%, hsla(95,77%,44%,1) 50%, hsla(94,60%,73%,1) 100%);
+}
